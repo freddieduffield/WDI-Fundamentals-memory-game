@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: "raleway" , sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 45px
+  margin: 0;
+}
+
+a {
+  font-family: "raleway", sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0px 20px 0px 20px
+  border-bottom: 2px solid transparent;
+}
+
+h2 {
+  font-family: "raleway", sans-serif;
+  color: #0D2C40;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h1, h2, nav {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "droid serif" , serif;
+  line-height: 26px
+  font-size: 18px;
+}
+
+
+header {
+  background-color: #F15B31;
+  padding: 30px 20px 30px 20px;
+
+}
+
+nav{
+  background-color: #00A6B3;
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+}
+
+main{
+  width: 850px;
+  margin: 35px auto 35px auto;
+}
+img{
+  margin: 40px 8px;
+}
+footer {
+  text-transform: uppercase;
+  padding:0px 20px 0px 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright {
+  font-family: "raleway", sans-serif;
+  float:left;
+}
+
+.message {
+  font-family: "raleway", sans-serif;
+  float:right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name{
+  color:#f15b31;
+  font-weight: 700;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
